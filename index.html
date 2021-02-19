@@ -1,1 +1,17 @@
-Hello!
+<html>
+
+<body>
+  <div id="main">Hello!</div>
+
+  <script type="text/javascript">
+    var el = document.getElementById("main"),
+        onclick = function (e) {
+          alert("Never, ever, use alert()");
+        };
+    el.addEventListener("click", onclick);
+    </script>
+
+
+</body>
+
+</html>
